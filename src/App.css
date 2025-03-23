@@ -1,0 +1,25 @@
+body{font-family: "Poppins", sans-serif; background: #f1f1f1; background:white;}
+
+.swiper-pagination-bullet {
+    background-color: red !important; /* Change to your desired color */
+  }
+
+  /* Active dot color */
+  .swiper-pagination-bullet-active {
+
+  border-color: red !important;
+  background-color: transparent;
+    transform: scale(0.9);
+ 
+}
+
+.swiper-pagination-bullet-inactive {
+    
+    background-color : red !important;
+  }
+  
+
+  .swiper-pagination {
+    position: absolute; /* Positioning relative to the swiper container */
+    bottom: 20px; /* Adjust this value to move the dots lower or higher */
+  }
